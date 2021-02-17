@@ -7,7 +7,6 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -67,12 +66,12 @@ public class TickData {
 	}
 
 	public PriceData get(String instrument) {
-		//removeUnwantedTick(System.currentTimeMillis() - Long.parseLong("60") * 1000);
+	
 		return tickMap.get(instrument);
 	}
 
 	public PriceData getAggregate() {
-		//removeUnwantedTick(System.currentTimeMillis() - Long.parseLong("60") * 1000);
+		
 		return tickMap.get("aggregate");
 	}
 }

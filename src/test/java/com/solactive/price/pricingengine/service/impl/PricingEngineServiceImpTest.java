@@ -3,11 +3,6 @@
  */
 package com.solactive.price.pricingengine.service.impl;
 
-import java.math.BigDecimal;
-import java.time.Clock;
-import java.time.Instant;
-import java.util.concurrent.ScheduledExecutorService;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

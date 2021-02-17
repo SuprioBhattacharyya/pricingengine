@@ -11,9 +11,5 @@ public interface PricingEngineService {
 	public PriceData retrieveData(String instrument);
 	
 	public PriceData retrieveAggregatedData();
-//	
-//	public String convertCurrency(CurrencyConversionDTO currencyConversionDTO) throws Exception;
-//	
-//	public URL retrieveLink() throws MalformedURLException;	
 
 }
