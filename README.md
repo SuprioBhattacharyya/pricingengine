@@ -5,11 +5,15 @@ Docker
 Postman
 
 How to build the application:
-Run the following command from the root folder :
+Run the following command from the root folder to build the app:
 
     gradlew clean build
 
-How to run the application :-
+How to run the application command line without docker:- from the root of the project , run the command below
+
+java -jar build/libs/pricingengine-0.0.1-SNAPSHOT.jar com.solactive.price.pricingengine.PricingengineApplication
+
+How to run the application using docker:-
 
 Docker image can be created locally of the project by running docker build with image name from the project directory:
 
